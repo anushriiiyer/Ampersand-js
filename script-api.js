@@ -115,7 +115,7 @@ document.getElementById('pan-upload').addEventListener('change', function () {
 document.getElementById('cheque-upload').addEventListener('change', function () {
   const iconArea = document.getElementById('cheque-icon');
   const textArea = document.getElementById('cheque-text');
-  iconArea.innerHTML = `<svg width="30" height="30" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+  iconArea.innerHTML = `<svg width="25" height="25" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M4.99967 7.00065L6.33301 8.33398L8.99967 5.66732M13.6663 7.00065C13.6663 10.6825 10.6816 13.6673 6.99967 13.6673C3.31778 13.6673 0.333008 10.6825 0.333008 7.00065C0.333008 3.31875 3.31778 0.333984 6.99967 0.333984C10.6816 0.333984 13.6663 3.31875 13.6663 7.00065Z" stroke="#16A34A" stroke-width="0.666667" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>
         
